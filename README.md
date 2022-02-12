@@ -7,4 +7,4 @@
 [Chun-Wei-Tsai](https://sites.google.com/site/cwtsai0807/)
 
 ## Contents
-Homeworks are 4 methods about solving 0/1 knapsack problem, which written in C++.
+Homeworks are 4 methods about solving 0/1 knapsack problem.
