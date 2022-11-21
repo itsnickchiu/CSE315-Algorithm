@@ -15,12 +15,12 @@ int main() {
 
     /* --------------------------- read dataset ---------------------------- */
     ifstream fileIn;
-    fileIn.open("../dataset/" + dir + "/c.txt");
+    fileIn.open("dataset/" + dir + "/c.txt");
     int c;     // capacity
     fileIn >> c;
     fileIn.close();
 
-    fileIn.open("../dataset/" + dir + "/p.txt");
+    fileIn.open("dataset/" + dir + "/p.txt");
     int n = 0; // number of items
     int tmp;
     while ( fileIn >> tmp ) {
@@ -28,7 +28,7 @@ int main() {
     }
     fileIn.close();
 
-    fileIn.open("../dataset/" + dir + "/p.txt");
+    fileIn.open("dataset/" + dir + "/p.txt");
     int v[n];  // value
     int i = 0;
     while ( fileIn >> v[i] ) {
@@ -36,7 +36,7 @@ int main() {
     }
     fileIn.close();
 
-    fileIn.open("../dataset/" + dir + "/w.txt");
+    fileIn.open("dataset/" + dir + "/w.txt");
     int w[n];  // weight
     i = 0;
     while ( fileIn >> w[i] ) {

@@ -60,20 +60,20 @@ int knapsack ( int c, vector<int> v, vector<int> w, int n, int arr[] ) {
 
 void readfile ( string dir, int &c, vector<int>& v, vector<int>& w, int &n ) {
     ifstream fileIn;
-    fileIn.open("../dataset/" + dir + "/c.txt");
+    fileIn.open("dataset/" + dir + "/c.txt");
     // capacity
     fileIn >> c;
     fileIn.close();
 
     int tmp;
-    fileIn.open("../dataset/" + dir + "/p.txt");
+    fileIn.open("dataset/" + dir + "/p.txt");
     // value
     while ( fileIn >> tmp ) {
         v.push_back(tmp);
     }
     fileIn.close();
 
-    fileIn.open("../dataset/" + dir + "/w.txt");
+    fileIn.open("dataset/" + dir + "/w.txt");
     // weight
     while ( fileIn >> tmp ) {
         w.push_back(tmp);
