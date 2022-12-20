@@ -12,3 +12,13 @@
     2. Greedy
     3. Dynamic Programming
     4. Simulated Annealing
+* To clone the repo, type the command below.
+```shell=
+git clone https://github.com/aryenchiu/CSE315-Algorithm.git
+```
+* To execute the program, change the directory to the corresponding methods first, then compile and execute.
+```
+g++ <filename.cpp> -o <filename>
+./<filename>
+```
+
